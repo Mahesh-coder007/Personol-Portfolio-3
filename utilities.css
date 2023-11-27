@@ -1,0 +1,79 @@
+a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+i {
+  vertical-align: middle;
+  font-size: 1.2em;
+}
+
+h1 {
+  font-size: 9em;
+}
+
+h2 {
+    font-size: 3em;
+    font-weight: 400;
+    cursor: pointer;
+  }
+
+h3 {
+  font-size: 2.2vw;
+  font-weight: 400;
+  line-height: 1.45;
+  padding: 0;
+}
+
+
+p {
+    font-weight: 500;
+    line-height: 1.8;
+  }
+
+.bounding {
+  overflow: hidden;
+}
+
+span {
+  display: inline-block;
+}
+
+.bound-elem {
+  transform: translateY(130%);
+}
+
+.anim {
+  transform: translateY(130%);
+}
+
+.cursur {
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 999;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #999;
+  mix-blend-mode: difference;
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.2s;
+}
+
+.gallary img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  padding: 40px 25px;
+}
+
+.showcase img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+ 
+}
